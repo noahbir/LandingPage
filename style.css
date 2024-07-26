@@ -1,126 +1,164 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+header {
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
-.headerItem {
-    flex: 1;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.item-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.item {
-    flex: initial;
-    padding-left: 20px;   
-}
-
-
-
-
-.main-container {
+.header {
     display: flex;
     flex-direction: column;
-    height: 3000px;
+    margin: 0px 50px 0px 50px;
+    max-width: 100%;
 }
 
-.mainItem {
-    flex: 1;
-}
-
-
-
-.section1-container {
-    display: flex;
-    align-items: center;
-    background-color: #1F2937;
-    padding: 20px 200px 20px 200px;
-}
-
-.section1-item {
-    flex: 1;
-    border: 2px solid white;
-}
-
-.section1-item h1 {
-    font-size: 48px;
-    color: #F9FAF8;
-    text-align: left;
-}
-
-.section1-item p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.section1-item button {
-    color: white;
-    background-color: rgb(7, 123, 161);
-    border-radius: 6px;
-    text-align: center;
-}
-
-
-
-
-.main-container h1 {
-    text-align: center;
-}
-
-.section2-container {
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px 20px 200px;
-    border: 2px solid black;
 }
 
-.section2-item {
+.header-top-item {
+    flex: 1;
+}
+
+.header-top-item h1 {
+    font-size: 24px;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links li {
+    padding: 10px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 400px;
+}
+
+.header-bottom-item {
+    flex: 1;
+}
+
+.header-bottom-item h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.header-bottom-item p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 60px;
+}
+
+.header-bottom-item img {
+    max-width: 100%;
+}
+
+.header-bottom-item button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.main-top {
+    height: 400px;
+    color: black;
+}
+
+.main-top h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-list {
+    list-style-type: none;
+    display: flex;
+    place-items: center;
+}
+
+.main-list li {
+    padding: 20px;
+}
+
+.main-middle {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+
+}
+
+.quote {
+    margin: 50px;
+    font-size: 36px;
+}
+
+.quote p {
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-author p {
+    text-align: end;
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.action-box {
+    margin: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 10px;
+}
+    
+.action-box-item {
+    padding: 20px 110px 20px 110px;
+}
+
+.action-button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    font-size: 20px;
+    border-width: 3px;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    flex-direction: column;
-    flex: 1;
-    border: 2px solid black;
-}
-
-.section2-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-.subtext {
-    margin-top: 8px;
-}
-
-
-.section3-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 200px 20px 200px;
-    border: 2px solid black;
-}
-
-
-
-.section4-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 200px 20px 200px;
-    border: 2px solid black;
+    height: 80px;
 }
